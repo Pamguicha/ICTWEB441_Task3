@@ -27,3 +27,17 @@ changeColorCheckoutBtn.addEventListener("mouseout", function(){
   changeColorCheckoutBtn.style.backgroundColor = "#00d0b7";
 });
 
+
+//function mouseover and mouseout search button
+
+const btnSearchChange = document.querySelector(".btnSearchBar");
+
+btnSearchChange.addEventListener("mouseover", function(){
+  btnSearchChange.style.backgroundColor = "#f8f3ff";
+  btnSearchChange.style.color = "#5928ed";
+});
+
+btnSearchChange.addEventListener("mouseout", function(){
+  btnSearchChange.style.backgroundColor = "#00d0b7";
+  btnSearchChange.style.color = "#f8f3ff";
+});
