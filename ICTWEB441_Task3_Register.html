@@ -4,7 +4,7 @@
 <head>
   <meta charset="UTF-8">
   <meta name="viewport" content="width=device-width, initial-scale=1.0">
-  <link rel="stylesheet" href="ICTWEB441_Task3.css" />
+  <link rel="stylesheet" href="ICTWEB441_Task3.css">
   <script src="ICTWEB441_Task3_Script.js" defer></script>
   <script src="ICTWEB441_Task3_Register.js" defer></script>
   <title>Register Page | 4Phones Australia</title>
@@ -23,16 +23,16 @@
       <li class="linksMenuList"> <a href="ICTWEB441_Task3_ContactUs.html" class="linksMenu">Contact Us</a></li>
     </ul>
     <form role="search" class="searchBar">
-      <input class="searchBarInput" type="search" role="searchbox" aria-label="search results box"
-        placeholder="Search brands..." id="search" value="" />
-      <input class="btnSearchBar" type="submit" role="button" aria-label="submision button" value="Search">
+      <input class="searchBarInput" type="search" aria-label="search results box"
+        placeholder="Search brands..." id="search" value="">
+      <input class="btnSearchBar" type="submit" aria-label="submision button" value="Search">
     </form>
   </nav>
   <h1 class="headerTitle">Registration Form</h1>
   <p class="introductionParagraph"> Please complete the following form to register for an account on our website</p>
-  <div class="container-grid" role="container">
+  <div class="container-grid">
     <main class="mainContainerRegisterPage">
-      <fieldset class="fieldsetRegister" role=“group” aria-labelledby=“registerLegend”>
+      <fieldset class="fieldsetRegister" aria-label="register-form">
         <form class="registerForm" id="register-form">
           <label for="username" class="labelRegisterForm">Username:</label><br>
           <input class="registerFormInput" type="text" id="username" name="username" placeholder="Enter your username">
@@ -67,9 +67,7 @@
           <br>
           <label for="gender-female" class="labelRegisterForm"> <small>(Choose only one)</small> </label>
           <br>
-          <input id="gender-female" type="radio" value="female" title="female" name="gender"
-            aria-describedby="gender female">
-          Female
+          <input id="gender-female" type="radio" value="female" title="female" name="gender">Female
           <br>
           <label for="gender-unspecified" class="labelRegisterForm"><small>(Choose only one)</small> </label>
           <br>
@@ -91,18 +89,17 @@
           <input class="registerFormInput" id="state" type="text" name="state" placeholder="Enter your state"><label
             id="stateError" class="required"> </label>
           <br>
-          <label for="telephoneRegister" class="labelRegisterForm" id="telephone-labelRf"> Mobile number:</label> <br>
+          <label for="telephoneRegisterRf" class="labelRegisterForm" id="telephone-labelRf"> Mobile number:</label> <br>
           <input class="registerFormInput" id="telephoneRegisterRf" type="tel" name="telephone"
             pattern="[0-4]{2}[0-9]{3} [0-9]{3} [0-9]{2}" placeholder="Enter your mobile number"><label
             id="telephoneErrorRf" class="required"> </label>
           <br>
-          <input class="resetBtnRegisterForm" id="resetBtnRf" type="reset" value="Reset" placeholder="Reset Form"
-            aria-labelledby="register-form">
+          <input class="resetBtnRegisterForm" id="resetBtnRf" type="reset" value="Reset" aria-labelledby="register-form">
           <input class="submitRegisterBtn" id="submitBtnRform" type="submit" value="Submit">
 
-
+</form>
       </fieldset>
-      </form>
+     
     </main>
     <aside>
       <h2 class="asideHeader">Purchases</h2>
